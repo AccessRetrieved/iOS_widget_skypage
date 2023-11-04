@@ -4,16 +4,16 @@
 
 
 //API_KEY
-let API_WEATHER = "API_HERE";//Load Your api here
+let API_WEATHER = "b0dbcac7cf44029a3a30911b8864c51e";//Load Your api here
 let CITY_WEATHER = "6954929";//add your city ID(disabled please USE LAT LONG)
 let UNIT_TYPE = "C";//C for Celius and F for fernite
 let TEXT_COLOR = "#000000";//Text color
 let BG_COLOR = "f8f8f8";//background color
 let FONT = "Avenir";//Text Font
 let FONT_BOLD = "Avenir-Heavy";//Text Font bold
-let MODE = "M";// A - get the location on auto, M - get location from city ID(Manual)
-let LAT = "28.4499";
-let LONG = "77.5278";
+let MODE = "A";// A - get the location on auto, M - get location from city ID(Manual)
+let LAT = "49.1064";
+let LONG = "-122.8251";
 
 // Create Widget
 const widget = new ListWidget()
